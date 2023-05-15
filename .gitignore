@@ -1,0 +1,30 @@
+# build output
+/outline
+/react
+/src
+
+# dependencies
+/node_modules
+
+# build
+/outline
+
+# misc
+.DS_Store
+.npm
+.eslintcache
+.yarn-integrity
+
+# env files
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Output of 'npm pack'
+*.tgz
+/package

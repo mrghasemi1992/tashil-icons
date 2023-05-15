@@ -1,0 +1,52 @@
+{
+  "name": "tashil-icons",
+  "version": "2.1.0",
+  "description": "$package_description",
+  "main": "react/index.js",
+  "scripts": {
+    "export": "figma-export use-config figma.config.ts",
+    "clean": "rimraf outline react src package *.tgz",
+    "bundle": "rollup --config",
+    "build": "run-s clean export bundle",
+    "np": "np",
+    "test": "node test.js",
+    "release": "run-s build np"
+  },
+  "author": "Mohammad Reza Ghasemi",
+  "license": "$license",
+  "homepage": "https://github.com/$your_username/$github_repo#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/$your_username/$github_repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/$your_username/$github_repo/issues"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "react"
+  ],
+  "files": [
+    "outline/",
+    "react/"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "@figma-export/cli": "^4.6.0",
+    "@figma-export/output-components-as-svg": "^4.6.0",
+    "@figma-export/output-components-as-svgr": "^4.6.0",
+    "@figma-export/output-components-as-svgstore": "^4.6.0",
+    "@figma-export/transform-svg-with-svgo": "^4.6.0",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@types/react": "^18.2.6",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "np": "^7.7.0",
+    "npm-run-all": "^4.1.5",
+    "react": "^18.2.0",
+    "rimraf": "^5.0.0",
+    "rollup": "^3.21.7",
+    "typescript": "^5.0.4"
+  }
+}
