@@ -7,6 +7,7 @@
     "declaration": true,
     "outDir": "react",
     "allowImportingTsExtensions": true,
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
+    "typeRoots": ["types"]
   }
 }
