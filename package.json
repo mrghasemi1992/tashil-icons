@@ -1,6 +1,6 @@
 {
   "name": "tashil-icons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "$package_description",
   "main": "react/index.js",
   "scripts": {
