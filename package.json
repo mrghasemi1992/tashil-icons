@@ -14,13 +14,13 @@
   },
   "author": "Mohammad Reza Ghasemi",
   "license": "$license",
-  "homepage": "https://github.com/$your_username/$github_repo#readme",
+  "homepage": "https://github.com/mrghasemi1992/tashil-icons#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/$your_username/$github_repo.git"
+    "url": "git+https://github.com/mrghasemi1992/tashil-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/$your_username/$github_repo/issues"
+    "url": "https://github.com/mrghasemi1992/tashil-icons/issues"
   },
   "keywords": [
     "icons",
